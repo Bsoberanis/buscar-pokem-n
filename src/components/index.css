@@ -1,0 +1,90 @@
+/* Importar una fuente retro para el estilo de los videojuegos */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive; /* Fuente pixelada */
+  background-color: #000000; /* Fondo negro típico de los juegos retro */
+  color: #ffffff; /* Texto blanco para buen contraste */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; /* Alineación vertical */
+}
+
+.container {
+  background: #333333; /* Fondo oscuro para el contenedor */
+  border: 5px solid #ffcc00; /* Borde amarillo brillante */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra blanca para un efecto de neón */
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #ffcc00; /* Borde amarillo */
+  border-radius: 8px; /* Bordes más redondeados */
+  width: 70%;
+  margin: 10px 0;
+  background: #555555; /* Fondo gris oscuro */
+  color: #ffffff; /* Texto blanco */
+}
+
+button {
+  padding: 12px 24px;
+  border: 3px solid #ffcc00; /* Borde amarillo brillante */
+  border-radius: 8px;
+  background-color: #0000ff; /* Fondo azul brillante */
+  color: #ffcc00; /* Texto amarillo para contraste */
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive; /* Fuente pixelada en el botón */
+}
+
+button:hover {
+  background-color: #0000cc; /* Azul oscuro en el hover */
+}
+
+h2 {
+  font-size: 2rem; /* Tamaño de fuente grande */
+  margin: 20px 0;
+  color: #ffcc00; /* Color amarillo brillante para el título */
+}
+
+img {
+  width: 200px; /* Tamaño de imagen más grande */
+  height: auto;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #444444; /* Fondo gris oscuro */
+  border: 2px solid #ffcc00; /* Borde amarillo brillante */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 10px 0;
+  padding: 10px;
+  color: #ffffff; /* Texto blanco */
+}
+
+.stats-list {
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+  color: #ffffff; /* Texto blanco */
+}
+
+h3 {
+  margin-top: 20px;
+  color: #ffcc00; /* Color amarillo brillante */
+}
+
+
